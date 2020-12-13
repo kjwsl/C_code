@@ -1,20 +1,20 @@
 // file: pointerarray.c
-#define _CRT_SECURE_NO_WARNINGS //scanf() ì˜¤ë¥˜ë¥¼ ë°©ì§€í•˜ê¸° ìœ„í•œ ìƒìˆ˜ ì •ì˜
+#define _CRT_SECURE_NO_WARNINGS //scanf() ¿À·ù¸¦ ¹æÁöÇÏ±â À§ÇÑ »ó¼ö Á¤ÀÇ
 #include <stdio.h>
 
 #define SIZE 3
 
 int main(void) {
-    // í¬ì¸í„° ë°°ì—´ ë³€ìˆ˜ì„ ì–¸
-    int *pary[SIZE] = { NULL};
+    // Æ÷ÀÎÅÍ ¹è¿­ º¯¼ö¼±¾ğ
+    int* pary[SIZE] = { NULL };
     int a = 10, b = 20, c = 30;
 
     pary[0] = &a;
     pary[1] = &b;
     pary[2] = &c;
-    for (int i = 0; i < SIZE; i++) 
+    for (int i = 0; i < SIZE; i++)
         printf("*pary[%d] = %d\n", i, *pary[i]);
-    
+
     for (int i = 0; i < SIZE; i++) {
         scanf("%d", pary[i]);
         printf("%d, %d, %d\n", a, b, c);

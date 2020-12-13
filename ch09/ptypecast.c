@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 int main(void) {
-    char c[4] = {'A', '\0', '\0', '\0'};    //ë¬¸ì'A' ì½”ë“œê°’: 65
-    //int *pi = %c[0]; //ê²½ê³  ë°œìƒ
-    int *pi = (int *)&c[0];
+    char c[4] = { 'A', '\0', '\0', '\0' };    //¹®ÀÚ'A' ÄÚµå°ª: 65
+    //int *pi = %c[0]; //°æ°í ¹ß»ı
+    int* pi = (int*)&c[0];
 
 
-    printf("%d %c\n", (int) c[0], c[0]);
-    printf("%d %c\n", *pi, (char) *pi);
+    printf("%d %c\n", (int)c[0], c[0]);
+    printf("%d %c\n", *pi, (char)*pi);
 
     return 0;
 }

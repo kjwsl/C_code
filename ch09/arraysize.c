@@ -5,9 +5,9 @@ int main(void) {
     int data[] = { 3, 4, 5, 7, 9 };
 
     printf("%d %d\n", sizeof(data), sizeof(data[0]));
-    printf("ì¼ì°¨ì› ë°°ì—´: ë°°ì—´ í¬ê¸° == %d\n", sizeof(data) / sizeof(data[0]));
+    printf("ÀÏÂ÷¿ø ¹è¿­: ¹è¿­ Å©±â == %d\n", sizeof(data) / sizeof(data[0]));
 
-    //4 x 3 í–‰ë ¬
+    //4 x 3 Çà·Ä
     double x[][3] = { {1, 2, 3},
                      {7, 8, 9},
                      {4, 5, 6},
@@ -16,8 +16,8 @@ int main(void) {
     printf("%d %d %d\n", sizeof(x), sizeof(x[0]), sizeof(x[1]));
     int rowsize = sizeof(x) / sizeof(x[0]);
     int colsize = sizeof(x[0]) / sizeof(x[0][0]);
-    printf("ì´ì°¨ì›” ë°°ì—´: í–‰ìˆ˜ == %d ì—´ìˆ˜ %d\n", rowsize, colsize);
-    printf("ì´ì°¨ì›” ë°°ì—´: ì „ì²´ ì›ì†Œ ìˆ˜ == %d\n", sizeof(x) / sizeof(x[0][0]));
+    printf("ÀÌÂ÷¿ù ¹è¿­: Çà¼ö == %d ¿­¼ö %d\n", rowsize, colsize);
+    printf("ÀÌÂ÷¿ù ¹è¿­: ÀüÃ¼ ¿ø¼Ò ¼ö == %d\n", sizeof(x) / sizeof(x[0][0]));
 
 
     return 0;

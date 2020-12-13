@@ -7,7 +7,7 @@ int main(void) {
     int input, sum, i, j;
 
     do {
-        printf("ì–‘ì˜ ì •ìˆ˜ ë˜ëŠ” 0(ì¢…ë£Œ)ë¥¼ ì…ë ¥: ");
+        printf("¾çÀÇ Á¤¼ö ¶Ç´Â 0(Á¾·á)¸¦ ÀÔ·Â: ");
         scanf("%d", &input);
 
         for (i = 1; i <= input; i++) {
@@ -20,7 +20,7 @@ int main(void) {
         }
     } while (input > 0);
 
-    puts("ì¢…ë£Œí•©ë‹ˆë‹¤.");
+    puts("Á¾·áÇÕ´Ï´Ù.");
 
     return 0;
 }

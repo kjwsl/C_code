@@ -5,10 +5,10 @@
 int main(void) {
     int n = 1;
 
-    while (n <= MAX) 
+    while (n <= MAX)
         printf("%d\n", n++);
 
-    printf("\nì œì–´ë³€ìˆ˜ count => %d\n", n);
+    printf("\nÁ¦¾îº¯¼ö count => %d\n", n);
 
     return 0;
 }

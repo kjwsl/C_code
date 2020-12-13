@@ -4,13 +4,13 @@
 int main(void) {
     int a = 1, b = 3, c = 6;
 
-    printf("ë³€ìˆ˜ëª…  ì €ìž¥ê°’    ì£¼ì†Œê°’   \n");
+    printf("º¯¼ö¸í  ÀúÀå°ª    ÁÖ¼Ò°ª   \n");
     printf("------------------------\n");
     printf("   c       %d     %p\n", c, &c);
     printf("   b       %d     %p\n", b, &b);
     printf("   a       %d     %p\n", a, &a);
 
-    int *p = &c;
+    int* p = &c;
 
     printf("   c       %d     %p\n", *p, p);
     printf("   b       %d     %p\n", *(p + 3), p + 3);

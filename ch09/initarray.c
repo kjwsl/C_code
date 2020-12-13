@@ -3,16 +3,16 @@
 #define SIZE 6
 
 int main(void) {
-    //ë°°ì—´ scoreì˜ ì„ ì–¸ê³¼ ì´ˆê¸°í™”
+    //¹è¿­ scoreÀÇ ¼±¾ğ°ú ÃÊ±âÈ­
     double score[] = { 89.3, 79.2, 84.83, 76.8, 92.52, 97.4 };
     double sum = 0;
 
-    //for ë¬¸ì„ ì´ìš©í•˜ì—¬ í•©ì„ êµ¬í•¨
+    //for ¹®À» ÀÌ¿ëÇÏ¿© ÇÕÀ» ±¸ÇÔ
     for (int i = 0; i < SIZE; i++) {
         sum += score[i];
         printf("score[%d] = %.2f\n", i, score[i]);
     }
-    printf("ì„±ì ì˜ í•©ì€ %.2fì´ê³  í‰ê· ì€ %.2fì´ë‹¤.\n", sum, sum / SIZE);
+    printf("¼ºÀûÀÇ ÇÕÀº %.2fÀÌ°í Æò±ÕÀº %.2fÀÌ´Ù.\n", sum, sum / SIZE);
 
     return 0;
 }

@@ -3,8 +3,8 @@
 
 int main(void) {
     int i = 20;
-    int *pi = &i;   //í¬ì¸í„° ì„ ì–¸
-    int **dpi = &pi;    //ì´ì¤‘ í¬ì¸í„° ì„ ì–¸
+    int* pi = &i;   //Æ÷ÀÎÅÍ ¼±¾ğ
+    int** dpi = &pi;    //ÀÌÁß Æ÷ÀÎÅÍ ¼±¾ğ
 
     printf("%p %p %p\n", &i, pi, dpi);
 

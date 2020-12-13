@@ -10,7 +10,7 @@ int main(void) {
         printf("%d\n", n++);
     } while (n <= MAX);
 
-    printf("\nì œì–´ë³€ìˆ˜ n => %d\n", n);
+    printf("\nÁ¦¾îº¯¼ö n => %d\n", n);
 
     return 0;
 }

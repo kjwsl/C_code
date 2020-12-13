@@ -5,8 +5,8 @@ int main(void) {
     int count = 1;
 
     while (count <= 3) {
-        printf("C ì–¸ì–´ ìž¬ë¯¸ìžˆë„¤ìš”!\n");
+        printf("C ¾ð¾î Àç¹ÌÀÖ³×¿ä!\n");
         count++;
     }
-    printf("\nì œì–´ë³€ìˆ˜ count => %d\n", count);
+    printf("\nÁ¦¾îº¯¼ö count => %d\n", count);
 }

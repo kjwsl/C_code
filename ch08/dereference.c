@@ -4,13 +4,13 @@
 int main(void) {
     int data = 100;
     char ch = 'A';
-    int *ptrint = &data;
-    char *ptrchar = &ch;
-    printf("ê°„ì ‘ì°¸ì¡° ì¶œë ¥: %d %c\n", *ptrint, *ptrchar);
+    int* ptrint = &data;
+    char* ptrchar = &ch;
+    printf("°£Á¢ÂüÁ¶ Ãâ·Â: %d %c\n", *ptrint, *ptrchar);
 
-    *ptrint = 200; //ë³€ìˆ˜ dataë¥¼ *ptrintë¡œ ê°„ì ‘ì°¸ì¡°í•˜ì—¬ ê·¸ ë‚´ìš©ì„ ìˆ˜ì •
-    *ptrchar = 'B'; //ë³€ìˆ˜ chë¥¼ *ptrcharë¡œ ê°„ì ‘ì°¸ì¡°í•˜ì—¬ ê·¸ ë‚´ìš©ì„ ìˆ˜ì •
-    printf("ì§ì ‘ì°¸ì¡° ì¶œë ¥: %d %c\n", data, ch);
+    *ptrint = 200; //º¯¼ö data¸¦ *ptrint·Î °£Á¢ÂüÁ¶ÇÏ¿© ±× ³»¿ëÀ» ¼öÁ¤
+    *ptrchar = 'B'; //º¯¼ö ch¸¦ *ptrchar·Î °£Á¢ÂüÁ¶ÇÏ¿© ±× ³»¿ëÀ» ¼öÁ¤
+    printf("Á÷Á¢ÂüÁ¶ Ãâ·Â: %d %c\n", data, ch);
 
     return 0;
 }

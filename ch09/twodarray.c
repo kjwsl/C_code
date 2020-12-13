@@ -5,10 +5,10 @@
 #define COLSIZE 3
 
 int main(void) {
-    // 2ì°¨ì› ë°°ì—´ì„ ì–¸
+    // 2Â÷¿ø ¹è¿­¼±¾ğ
     int td[ROWSIZE][COLSIZE];
 
-    // 2ì°¨ì› ë°°ì—´ì›ì†Œì— ê°’ ì €ì¥
+    // 2Â÷¿ø ¹è¿­¿ø¼Ò¿¡ °ª ÀúÀå
     td[0][0] = 1;
     td[0][1] = 2;
     td[0][2] = 3;
@@ -16,7 +16,7 @@ int main(void) {
     td[1][1] = 5;
     td[1][2] = 6;
 
-    printf("ë°˜ë³µë¬¸ forì„ ì´ìš©í•˜ì—¬ ì¶œë ¥\n");
+    printf("¹İº¹¹® forÀ» ÀÌ¿ëÇÏ¿© Ãâ·Â\n");
     for (int i = 0; i < ROWSIZE; i++) {
         for (int j = 0; j < COLSIZE; j++)
             printf("td[%d][%d] == %d ", i, j, td[i][j]);

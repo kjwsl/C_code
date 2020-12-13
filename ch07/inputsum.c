@@ -1,24 +1,24 @@
 // file: inputsum.c
-#define _CRT_SECURE_NO_WARNINGS //scanf() Л≤╓К╔≤К╔╪ К╟╘Л╖─М∙≤Й╦╟ Л°└М∙° Л┐│Л┬≤
+#define _CRT_SECURE_NO_WARNINGS //scanf() ©ю╥Ы╦╕ ╧ФаЖго╠Б ю╖гя ╩С╪Ж
 
 #include <stdio.h>
 
 int main(void) {
     int i, sum, max;
 
-    printf("1Л≈░Л└°К╤─М└╟ Л═∙Л┬≤Й╧▄Л╖─Л²≤ М∙╘Л²└ Й╣╛М∙═ Л√▒Л²≤ Л═∙Л┬≤ М∙≤К┌≤ Л·┘К═╔: ");
+    printf("1©║╪╜╨нем а╓╪Ж╠НаЖюг гую╩ ╠╦гр ╬Гюг а╓╪Ж гоЁ╙ ют╥б: ");
     scanf("%d", &max);
 
-    for (i = 1, sum = 0; i <= max; i++) //++iК▐└ Й╟─К┼╔
+    for (i = 1, sum = 0; i <= max; i++) //++i╣╣ ╟║╢и
         sum += i; // sum = sum + 1;
-    printf("\nfor К╛╦Л°╪К║° Й╣╛М∙° 1Л≈░Л└° %dЙ╧▄Л╖─ М∙╘: %3d\n", max, sum);
+    printf("\nfor ╧╝ю╦╥н ╠╦гя 1©║╪╜ %d╠НаЖ гу: %3d\n", max, sum);
 
     i = 1, sum = 0;
     while (i <= max) {
         sum += i; // sum = sum + 1;
-        i++; // ++iК▐└ Й╟─К┼╔
+        i++; // ++i╣╣ ╟║╢и
     }
-    printf("while К╛╦Л°╪К║° Й╣╛М∙° 1Л≈░Л└° %dЙ╧▄Л╖─ М∙╘: %3d\n", max, sum);
+    printf("while ╧╝ю╦╥н ╠╦гя 1©║╪╜ %d╠НаЖ гу: %3d\n", max, sum);
 
     return 0;
 }

@@ -5,9 +5,9 @@
 #define COLSIZE 3
 
 int main(void) {
-    // 2ì°¨ì› ë°°ì—´ ì´ˆê¸°í™”
-    int td[][3] = {{1}, {1, 2, 3}};
-    printf("ë°˜ë³µë¬¸ forì„ ì´ìš©í•˜ì—¬ ì¶œë ¥\n");
+    // 2Â÷¿ø ¹è¿­ ÃÊ±âÈ­
+    int td[][3] = { {1}, {1, 2, 3} };
+    printf("¹İº¹¹® forÀ» ÀÌ¿ëÇÏ¿© Ãâ·Â\n");
     for (int i = 0; i < ROWSIZE; i++) {
         for (int j = 0; j < COLSIZE; j++)
             printf("%d ", td[i][j]);

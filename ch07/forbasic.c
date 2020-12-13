@@ -7,10 +7,10 @@ int main(void) {
     int i;
 
     for (i = 1; i <= MAX; i++) {
-        printf("C ì–¸ì–´ ì¬ë¯¸ìˆë„¤ìš”! %d\n", i);
+        printf("C ¾ğ¾î Àç¹ÌÀÖ³×¿ä! %d\n", i);
     }
 
-    printf("\nì œì–´ë³€ìˆ˜ i => %d\n", i);
+    printf("\nÁ¦¾îº¯¼ö i => %d\n", i);
 
     return 0;
 }

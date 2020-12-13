@@ -5,12 +5,12 @@
 int main(void) {
     int input;
 
-    printf("ì •ìˆ˜ ì…ë ¥: ");
+    printf("Á¤¼ö ÀÔ·Â: ");
     scanf("%d", &input);
-    printf("ì…ë ¥ê°’: %d\n", input);
-    printf("ì£¼ì†Œê°’: %u(10ì§„ìˆ˜), %p(16ì§„ìˆ˜)\n", (int)&input, &input);
-    printf("ì£¼ì†Œê°’: %d(10ì§„ìˆ˜), %#X(16ì§„ìˆ˜)\n", (unsigned)&input, (int)&input);
-    printf("ì£¼ì†Œê°’ í¬ê¸°: %d\n", sizeof(&input));
+    printf("ÀÔ·Â°ª: %d\n", input);
+    printf("ÁÖ¼Ò°ª: %u(10Áø¼ö), %p(16Áø¼ö)\n", (int)&input, &input);
+    printf("ÁÖ¼Ò°ª: %d(10Áø¼ö), %#X(16Áø¼ö)\n", (unsigned)&input, (int)&input);
+    printf("ÁÖ¼Ò°ª Å©±â: %d\n", sizeof(&input));
 
     return 0;
 }

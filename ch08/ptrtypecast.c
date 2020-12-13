@@ -6,11 +6,11 @@ int main(void) {
     int* pi = &value;
     char* pc = (char*)&value;
 
-    printf("ë³€ìˆ˜ëª…    ì €ì¥ê°’        ì£¼ì†Œê°’\n");
+    printf("º¯¼ö¸í    ÀúÀå°ª        ÁÖ¼Ò°ª\n");
     printf("-----------------------------------\n");
-    printf(" value    %0#x    %u\n", value, pi); //ì •ìˆ˜ ì¶œë ¥
+    printf(" value    %0#x    %u\n", value, pi); //Á¤¼ö Ãâ·Â
 
-    //ë¬¸ì í¬ì¸í„°ë¡œ ë¬¸ì ì¶œë ¥ ëª¨ë“ˆ
+    //¹®ÀÚ Æ÷ÀÎÅÍ·Î ¹®ÀÚ Ãâ·Â ¸ğµâ
     for (int i = 0; i <= 3; i++) {
         char ch = *(pc + 1);
         printf("*(pc+%d)   %0#6x   %2c   %u\n", i, ch, ch, pc + 1);
