@@ -1,3 +1,4 @@
+// file: nullpointer.c
 #include <stdio.h>
 
 int main(void) {
@@ -5,7 +6,7 @@ int main(void) {
     ptr1 = NULL;
 
     printf("%p\n", ptr1);
-
+    //printf("%p\n", ptr2);
     printf("%d\n", data);
 
     return 0;

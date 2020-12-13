@@ -1,3 +1,5 @@
+// file: continue.c
+
 #include <stdio.h>
 
 int main(void) {
@@ -5,7 +7,7 @@ int main(void) {
 
     pritnf("1에서 %d까지 정수 중에서 3으로 나누어 떨어지지 않는 수\n", MAX);
     for (int i = 1; i <= MAX; i++) {
-        if (i % 3 == 0)
+        if (i % 3 == 0) // (1(1 % 3))
             continue;
         printf("%3d", i);
     }

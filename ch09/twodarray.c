@@ -1,11 +1,14 @@
+// file: twodarray.c
 #include <stdio.h>
 
 #define ROWSIZE 2
 #define COLSIZE 3
 
 int main(void) {
+    // 2차원 배열선언
     int td[ROWSIZE][COLSIZE];
 
+    // 2차원 배열원소에 값 저장
     td[0][0] = 1;
     td[0][1] = 2;
     td[0][2] = 3;

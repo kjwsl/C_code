@@ -1,3 +1,4 @@
+// file: tdaryptr.c
 #include <stdio.h>
 
 #define ROW 2
@@ -6,8 +7,8 @@
 int main(void) {
     int td[][COL] = {{8, 5, 4}, {2, 7, 6}};
 
-    **td = 10;
-    *td[1] = 20;
+    **td = 10;  //td[0][0] = 10;
+    *td[1] = 20;    //td[1][0] = 20;
 
     for (int i = 0, cnt = 0; i < ROW; i++) {
         for (int j = 0; j < COL; j++) {

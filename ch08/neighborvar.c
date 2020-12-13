@@ -1,3 +1,4 @@
+// file: neighborvar.c
 #include <stdio.h>
 
 int main(void) {

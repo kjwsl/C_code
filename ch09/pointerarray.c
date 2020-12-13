@@ -1,9 +1,11 @@
-#define _CRT_SECURE_NO_WARNINGS
+// file: pointerarray.c
+#define _CRT_SECURE_NO_WARNINGS //scanf() 오류를 방지하기 위한 상수 정의
 #include <stdio.h>
 
 #define SIZE 3
 
 int main(void) {
+    // 포인터 배열 변수선언
     int *pary[SIZE] = { NULL};
     int a = 10, b = 20, c = 30;
 

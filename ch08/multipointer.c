@@ -1,9 +1,10 @@
+// file: multipointer.c
 #include <stdio.h>
 
 int main(void) {
     int i = 20;
-    int *pi = &i;
-    int **dpi = &pi;
+    int *pi = &i;   //포인터 선언
+    int **dpi = &pi;    //이중 포인터 선언
 
     printf("%p %p pP\n", &i, pi, dpi);
 

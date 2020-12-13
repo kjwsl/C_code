@@ -1,3 +1,4 @@
+// file: tdscore.c
 #include <stdio.h>
 
 #define ROWSIZE 4
@@ -6,6 +7,7 @@
 int main(void) {
     int sum = 0, midsum = 0, finalsum = 0;
 
+    // 2차원 배열 초기화
     int score[][COLSIZE] = {95, 85, 90, 88, 86, 90, 88, 78};
 
     printf("     중간     기말\n");
