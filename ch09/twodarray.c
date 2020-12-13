@@ -19,7 +19,7 @@ int main(void) {
     printf("반복문 for을 이용하여 출력\n");
     for (int i = 0; i < ROWSIZE; i++) {
         for (int j = 0; j < COLSIZE; j++)
-            pritnf("td[%d][%d] == %d ", i, j, td[i][j]);
+            printf("td[%d][%d] == %d ", i, j, td[i][j]);
         printf("\n");
     }
 
